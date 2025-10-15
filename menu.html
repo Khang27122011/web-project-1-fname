@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KFC - Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>KFC Menu</h1>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="menu.html">Our Menu</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section>
+        <h2>Popular Items</h2>
+        <table borderr="1">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bucket Meal</td>
+              <td>8 pieces of chicken with sides</td>
+              <td>$20.99</td>
+            </tr>
+            <tr>
+              <td>Zinger Burger</td>
+              <td>Spicy chicken fillet in a bun</td>
+              <td>$5.99</td>
+            </tr>
+            <tr>
+              <td>Popcorn Chicken</td>
+              <td>Bite-sized crispy chicken</td>
+              <td>$4.99</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Form -->
+      <section>
+        <h2>Feedback Form</h2>
+        <!-- This form lets users provide feedback -->
+        <form>
+          <!-- User's name -->
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <!-- User's email -->
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <!-- Favorite menu item -->
+          <label for="item">Favorite Item:</label>
+          <input type="text" id="item" name="item" /><br /><br />
+
+          <!-- New input type not covered in class: color picker -->
+          <!-- Lets user choose favorite color -->
+          <label for="color">Favorite Color:</label>
+          <input type="color" id="color" name="color" /><br /><br />
+
+          <!-- Submit button -->
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        <small><del>Unofficial</del> fan site. We love KFC!</small>
+      </p>
+    </footer>
+  </body>
+</html>
